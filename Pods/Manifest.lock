@@ -1,0 +1,24 @@
+PODS:
+  - SnapKit (5.6.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftGifOrigin (1.7.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - SVProgressHUD
+  - SwiftGifOrigin
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SVProgressHUD
+    - SwiftGifOrigin
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+
+PODFILE CHECKSUM: 9970eea06fa0b4db19bd1f22b02a7ea2b6513cb4
+
+COCOAPODS: 1.11.3

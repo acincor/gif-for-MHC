@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28F9C71A1DF873BC7186EB7 /* Pods_gif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A2E3EE8D66126ECFC8EFCE /* Pods_gif.framework */; };
+		C00F5B4A28EFBAE300B3C733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00F5B4928EFBAE300B3C733 /* AppDelegate.swift */; };
+		C00F5B4E28EFBAE300B3C733 /* Button+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00F5B4D28EFBAE300B3C733 /* Button+Extension.swift */; };
+		C00F5B5328EFBAE400B3C733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00F5B5228EFBAE400B3C733 /* Assets.xcassets */; };
+		C00F5B5E28EFDB5400B3C733 /* 熊卷的多动症.gif in Resources */ = {isa = PBXBuildFile; fileRef = C00F5B5D28EFDB5400B3C733 /* 熊卷的多动症.gif */; };
+		C010137E290D426900025CCC /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C010137D290D426900025CCC /* GifViewController.swift */; };
+		C04FCE56290C16680050D7AD /* ___ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FCE55290C16680050D7AD /* ___ViewController.swift */; };
+		C06634EC28F57AEB002F9924 /* VisitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06634EB28F57AEB002F9924 /* VisitorViewController.swift */; };
+		C06634EE28F58821002F9924 /* 秦始皇.gif in Resources */ = {isa = PBXBuildFile; fileRef = C06634ED28F58821002F9924 /* 秦始皇.gif */; };
+		C06634F228F58B66002F9924 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06634F128F58B66002F9924 /* MainViewController.swift */; };
+		C06634F428F58CC4002F9924 /* BearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06634F328F58CC4002F9924 /* BearViewController.swift */; };
+		C06634F628F58D57002F9924 /* KingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06634F528F58D57002F9924 /* KingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A993B6CE14636658882D1BD /* Pods-gif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif.debug.xcconfig"; path = "Target Support Files/Pods-gif/Pods-gif.debug.xcconfig"; sourceTree = "<group>"; };
+		73A2E3EE8D66126ECFC8EFCE /* Pods_gif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9259BF3052A8059907B616EE /* Pods-gif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif.release.xcconfig"; path = "Target Support Files/Pods-gif/Pods-gif.release.xcconfig"; sourceTree = "<group>"; };
+		C00F5B4628EFBAE300B3C733 /* gif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00F5B4928EFBAE300B3C733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C00F5B4D28EFBAE300B3C733 /* Button+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Extension.swift"; sourceTree = "<group>"; };
+		C00F5B5228EFBAE400B3C733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C00F5B5728EFBAE400B3C733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00F5B5D28EFDB5400B3C733 /* 熊卷的多动症.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "熊卷的多动症.gif"; sourceTree = "<group>"; };
+		C010137D290D426900025CCC /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
+		C04FCE55290C16680050D7AD /* ___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___ViewController.swift"; sourceTree = "<group>"; };
+		C06634EB28F57AEB002F9924 /* VisitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorViewController.swift; sourceTree = "<group>"; };
+		C06634ED28F58821002F9924 /* 秦始皇.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "秦始皇.gif"; sourceTree = "<group>"; };
+		C06634F128F58B66002F9924 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C06634F328F58CC4002F9924 /* BearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearViewController.swift; sourceTree = "<group>"; };
+		C06634F528F58D57002F9924 /* KingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingViewController.swift; sourceTree = "<group>"; };
+		C085DF8828FAC1C000698553 /* gif.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gif.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00F5B4328EFBAE300B3C733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28F9C71A1DF873BC7186EB7 /* Pods_gif.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FDEBE58DAB4D5A65CF3F9B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A993B6CE14636658882D1BD /* Pods-gif.debug.xcconfig */,
+				9259BF3052A8059907B616EE /* Pods-gif.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C00F5B3D28EFBAE300B3C733 = {
+			isa = PBXGroup;
+			children = (
+				C00F5B4828EFBAE300B3C733 /* gif */,
+				C00F5B4728EFBAE300B3C733 /* Products */,
+				7FDEBE58DAB4D5A65CF3F9B4 /* Pods */,
+				CD3D924545996A803D369A16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C00F5B4728EFBAE300B3C733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00F5B4628EFBAE300B3C733 /* gif.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00F5B4828EFBAE300B3C733 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				C085DF8828FAC1C000698553 /* gif.entitlements */,
+				C00F5B4928EFBAE300B3C733 /* AppDelegate.swift */,
+				C00F5B4D28EFBAE300B3C733 /* Button+Extension.swift */,
+				C06634F128F58B66002F9924 /* MainViewController.swift */,
+				C04FCE55290C16680050D7AD /* ___ViewController.swift */,
+				C010137D290D426900025CCC /* GifViewController.swift */,
+				C06634EB28F57AEB002F9924 /* VisitorViewController.swift */,
+				C06634F328F58CC4002F9924 /* BearViewController.swift */,
+				C06634F528F58D57002F9924 /* KingViewController.swift */,
+				C00F5B5228EFBAE400B3C733 /* Assets.xcassets */,
+				C00F5B5D28EFDB5400B3C733 /* 熊卷的多动症.gif */,
+				C06634ED28F58821002F9924 /* 秦始皇.gif */,
+				C00F5B5728EFBAE400B3C733 /* Info.plist */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		CD3D924545996A803D369A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A2E3EE8D66126ECFC8EFCE /* Pods_gif.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00F5B4528EFBAE300B3C733 /* gif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00F5B5A28EFBAE400B3C733 /* Build configuration list for PBXNativeTarget "gif" */;
+			buildPhases = (
+				BBC7646F4E33CE097EDE70C1 /* [CP] Check Pods Manifest.lock */,
+				C00F5B4228EFBAE300B3C733 /* Sources */,
+				C00F5B4328EFBAE300B3C733 /* Frameworks */,
+				C00F5B4428EFBAE300B3C733 /* Resources */,
+				1E9A6E52DCBAEC15CA3C7497 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gif;
+			productName = gif;
+			productReference = C00F5B4628EFBAE300B3C733 /* gif.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00F5B3E28EFBAE300B3C733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C00F5B4528EFBAE300B3C733 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C00F5B4128EFBAE300B3C733 /* Build configuration list for PBXProject "gif" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00F5B3D28EFBAE300B3C733;
+			productRefGroup = C00F5B4728EFBAE300B3C733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00F5B4528EFBAE300B3C733 /* gif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00F5B4428EFBAE300B3C733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00F5B5E28EFDB5400B3C733 /* 熊卷的多动症.gif in Resources */,
+				C06634EE28F58821002F9924 /* 秦始皇.gif in Resources */,
+				C00F5B5328EFBAE400B3C733 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9A6E52DCBAEC15CA3C7497 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gif/Pods-gif-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gif/Pods-gif-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gif/Pods-gif-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC7646F4E33CE097EDE70C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gif-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00F5B4228EFBAE300B3C733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06634EC28F57AEB002F9924 /* VisitorViewController.swift in Sources */,
+				C00F5B4E28EFBAE300B3C733 /* Button+Extension.swift in Sources */,
+				C00F5B4A28EFBAE300B3C733 /* AppDelegate.swift in Sources */,
+				C06634F428F58CC4002F9924 /* BearViewController.swift in Sources */,
+				C04FCE56290C16680050D7AD /* ___ViewController.swift in Sources */,
+				C06634F228F58B66002F9924 /* MainViewController.swift in Sources */,
+				C010137E290D426900025CCC /* GifViewController.swift in Sources */,
+				C06634F628F58D57002F9924 /* KingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C00F5B5828EFBAE400B3C733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C00F5B5928EFBAE400B3C733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00F5B5B28EFBAE400B3C733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A993B6CE14636658882D1BD /* Pods-gif.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gif/gif.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "Build for MHC";
+				DEVELOPMENT_TEAM = P2AJHF4ZX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gif/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GIF播放器";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "允许使用相机";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "允许使用麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "允许保存图片至相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "允许访问相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftGifOrigin\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MHCInc.gif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C00F5B5C28EFBAE400B3C733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9259BF3052A8059907B616EE /* Pods-gif.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gif/gif.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "Build for MHC";
+				DEVELOPMENT_TEAM = P2AJHF4ZX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gif/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GIF播放器";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "允许使用相机";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "允许使用麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "允许保存图片至相册";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "允许访问相册";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftGifOrigin\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MHCInc.gif;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00F5B4128EFBAE300B3C733 /* Build configuration list for PBXProject "gif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00F5B5828EFBAE400B3C733 /* Debug */,
+				C00F5B5928EFBAE400B3C733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00F5B5A28EFBAE400B3C733 /* Build configuration list for PBXNativeTarget "gif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00F5B5B28EFBAE400B3C733 /* Debug */,
+				C00F5B5C28EFBAE400B3C733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00F5B3E28EFBAE300B3C733 /* Project object */;
+}
