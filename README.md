@@ -1,7 +1,7 @@
 # gif-for-MHC
 gif-for-MHC
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Mhc-Inc/gif-for-MHC) ![GitHub](https://img.shields.io/github/license/Mhc-Inc/gif-for-MHC) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mhc-Inc/gif-for-MHC?include_prereleases) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Mhc-Inc/gif-for-MHC.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Mhc-Inc/gif-for-MHC) ![GitHub License](https://img.shields.io/github/license/Mhc-Inc/gif-for-MHC) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mhc-Inc/gif-for-MHC?include_prereleases) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Mhc-Inc/gif-for-MHC.svg)
 
 观看测试视频，请照做
 请保证你有官方的python环境，没有则可以去 https://python.org 下载
