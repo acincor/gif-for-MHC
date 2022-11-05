@@ -1,4 +1,5 @@
 # gif-for-MHC
+# - 这个项目是针对MacOS的
 gif-for-MHC
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Mhc-Inc/gif-for-MHC) ![GitHub License](https://img.shields.io/github/license/Mhc-Inc/gif-for-MHC) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Mhc-Inc/gif-for-MHC?include_prereleases) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Mhc-Inc/gif-for-MHC.svg)
