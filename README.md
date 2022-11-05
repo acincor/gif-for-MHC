@@ -1,6 +1,8 @@
 # gif-for-MHC
 gif-for-MHC
 观看测试视频，请照做
+请保证你有官方的python环境，没有则可以去 https://python.org 下载
+安装了环境后保证你有Xcode,VSCode等开发Swift的软件，或安装Swift官方环境，这里以Xcode为例，做好下面的工作：
 
 - 🥳 打开mhcinc文件夹 ![打开mhcinc文件夹](https://www.z4a.net/images/2022/11/04/2022-11-04-06.55.22.png)
 
