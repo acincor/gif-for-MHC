@@ -22,7 +22,10 @@ guard let double = Double(ReadLine) else {
     print("输入错误")
     exit(-1023)
 }
-if double > 3.5 || double == 2.7 {
+let numberOfPlaces:Double = 2.0
+let powerOfTen:Double = pow(10.0,numberOfPlaces)
+let targetedDecimalPlaces:Double = round((double.truncatingRemainder(dividingBy: 1.0)) * powerOfTen) / powerOfTen
+if targetedDecimalPlaces <= 0.90 || double == 2.7 {
     var FileContents = """
     #!/Library/Frameworks/Python.framework/Versions/\(ReadLine)/bin/python\(ReadLine)
     import requests
